@@ -44,7 +44,13 @@ These moments can provide early entry or exit signals for high-probability trade
 
 ## 📸 Screenshots
 
-_Add screenshots here if available (e.g., upload to GitHub and link them here)._
+## Thirtynader-SessionLines 📈
+
+![Chart Preview](./session-demo1.png)  
+*Live chart showing Thirtynader-SessionLines in action with clear session boundaries.*
+
+![Indicator Settings](./session-demo2.png)  
+*Customizable indicator settings, including session colors, line style, and alert system.*
 
 ---
 
