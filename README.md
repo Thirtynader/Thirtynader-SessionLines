@@ -1,30 +1,61 @@
-# 📊 Thirtynader SessionLines Indicator
+# 📊 Thirtynader SessionLines Indicator for MetaTrader 5
 
-An advanced MetaTrader 5 indicator that automatically draws session lines with alerting capabilities.
+A smart and efficient indicator that automatically draws trading session lines, helping you detect **potential trend reversal zones** with high accuracy.
+
+---
 
 ## ✨ Features
 
-- 📌 Automatically detects trading sessions
-- 🔔 Built-in alert system
-- 🎨 Customizable line colors and styles
-- 📈 Works on any timeframe
+- 🔁 Automatically draws session-based horizontal lines
+- ⏰ Works across all timeframes and assets
+- 🎯 Designed to detect **key reversal areas**
+- 🔔 Built-in **alert system**, so you never miss a trading opportunity
+- 🎨 Fully customizable appearance
 
-## 🛠 Installation
+---
 
-1. Download the file `Thirtynader-SessionLines.ex5`
+## 🧠 How It Works
+
+The session lines act as psychological support and resistance zones, derived from key market hours.
+
+📌 **When the price touches these lines, there's a high probability of trend reversal or temporary pullback.** These levels are based on historical session behaviors, offering high-probability trade setups for scalpers and swing traders alike.
+
+🚨 **The integrated alert feature ensures you are notified instantly**, so you never miss a potential setup — even when you're away from the screen.
+
+---
+
+## 📦 Installation
+
+1. Download the file: `Thirtynader-SessionLines.ex5`
 2. Open MetaTrader 5
-3. Go to `File` → `Open Data Folder`
-4. Navigate to `MQL5/Indicators/`
-5. Paste the file and restart MetaTrader
+3. Go to `File → Open Data Folder`
+4. Navigate to: `MQL5/Indicators/`
+5. Copy the file there and restart MetaTrader
+6. Attach the indicator to any chart
 
-## 📷 Screenshot
+---
 
-(You can upload a screenshot and link it here.)
+## 📸 Screenshots
 
-## ℹ️ Note
+_Add screenshots here if available (e.g., upload to GitHub and link them here)._
 
-This release only includes the compiled `.ex5` file. The source code is not publicly available to protect proprietary logic.
+---
+
+## 🔒 Note
+
+This release includes only the **compiled .ex5** file. The source code is not publicly available in order to protect proprietary logic.
+
+---
 
 ## 📬 Contact
 
-If you have questions, contact: your.email@example.com
+For questions, feedback, or collaboration:
+
+📧 your.email@example.com  
+📢 Follow updates on: [your social or GitHub profile]
+
+---
+
+## ⚖ License
+
+MIT License (Optional) — Free for personal and commercial use, redistribution of compiled version only.
