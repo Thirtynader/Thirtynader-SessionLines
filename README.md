@@ -33,7 +33,7 @@ These moments can provide early entry or exit signals for high-probability trade
 
 ## 📦 Installation
 
-1. Download the file: `Thirtynader-SessionLines.ex5`
+1. Download the file: [`Thirtynader-SessionLines.ex5`](https://github.com/Thirtynader/Thirtynader-SessionLines/releases/latest/download/Thirtynader-SessionLines.ex5)
 2. Open MetaTrader 5
 3. Go to `File → Open Data Folder`
 4. Navigate to: `MQL5/Indicators/`
