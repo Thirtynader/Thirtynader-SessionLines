@@ -58,9 +58,9 @@ This release includes only the **compiled .ex5** file. The source code is not pu
 
 For questions, feedback, or collaboration:
 
-📧 your.email@example.com  
-📢 Follow updates on: [your social or GitHub profile]
-
+📧 Thirtynader@gmail.com  
+📢 Follow updates on: https://www.1hesekhob.com/pages/Thirtynader/
+                       https://github.com/Thirtynader
 ---
 
 ## ⚖ License
