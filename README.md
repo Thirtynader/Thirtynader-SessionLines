@@ -22,6 +22,13 @@ The session lines act as psychological support and resistance zones, derived fro
 
 🚨 **The integrated alert feature ensures you are notified instantly**, so you never miss a potential setup — even when you're away from the screen.
 
+📊 In many cases, when price reaches one of these session zones, you’ll observe a **clear behavioral shift** in the market — such as:
+- A reversal in trend direction
+- A turning point in market cycles
+- The beginning of a breakout move
+
+These moments can provide early entry or exit signals for high-probability trades.
+
 ---
 
 ## 📦 Installation
