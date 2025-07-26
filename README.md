@@ -20,9 +20,9 @@ The session lines act as psychological support and resistance zones, derived fro
 
 📌 **When the price touches these lines, there's a high probability of trend reversal or temporary pullback.** These levels are based on historical session behaviors, offering high-probability trade setups for scalpers and swing traders alike.
 
-🚨 **The integrated alert feature ensures you are notified instantly**, so you never miss a potential setup — even when you're away from the screen.
+🚨 **The integrated alert feature ensures you are notified instantly**, so you never miss a potential setup - even when you're away from the screen.
 
-📊 In many cases, when price reaches one of these session zones, you’ll observe a **clear behavioral shift** in the market — such as:
+📊 In many cases, when price reaches one of these session zones, you’ll observe a **clear behavioral shift** in the market - such as:
 - A reversal in trend direction
 - A turning point in market cycles
 - The beginning of a breakout move
