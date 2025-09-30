@@ -3,8 +3,8 @@
 A smart and efficient indicator that automatically draws trading session lines, helping you detect **potential trend reversal zones** with high accuracy.
 
 ---
-
-## ✨ Features
+**Version History**: 
+## ✨ V1.0.0
 
 - 🔁 Automatically draws session-based horizontal lines
 - ⏰ Works across all timeframes and assets
@@ -13,7 +13,7 @@ A smart and efficient indicator that automatically draws trading session lines, 
 - 🎨 Fully customizable appearance
 
 
-## New Features
+## V1.1.0
 
 ### Daylight Saving Time (DST) Adjustment
 - **shift_one_hour_forward**: A boolean option to shift all session lines forward by one hour
