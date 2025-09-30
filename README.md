@@ -12,6 +12,34 @@ A smart and efficient indicator that automatically draws trading session lines, 
 - 🔔 Built-in **alert system**, so you never miss a trading opportunity
 - 🎨 Fully customizable appearance
 
+
+## New Features
+
+### Daylight Saving Time (DST) Adjustment
+- **shift_one_hour_forward**: A boolean option to shift all session lines forward by one hour
+  - Set to `false` for standard time (default)
+  - Set to `true` to shift lines forward by 1 hour (for DST periods)
+  - Useful when your broker's server time changes due to seasonal time adjustments
+
+### Interactive Tooltips
+- Hover your mouse over any vertical line to see the exact session time
+- Tooltip displays the date and time in a readable format
+- Helps quickly identify which session each line represents
+
+## Usage Example
+
+When daylight saving time begins or ends and your session lines appear shifted:
+
+1. Open the indicator settings
+2. Toggle `shift_one_hour_forward` to `true` or `false`
+3. The lines will automatically adjust by one hour
+
+## Configuration
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| shift_one_hour_forward | bool | false | Shifts all session lines forward by 1 hour when enabled |
+
 ---
 
 ## 🧠 How It Works
@@ -52,6 +80,8 @@ These moments can provide early entry or exit signals for high-probability trade
 ![Indicator Settings](./session-demo2.png)  
 *Customizable indicator settings, including session colors, line style, and alert system.*
 
+![Indicator Settings](./session-demo3.jpg)
+*New Features
 ---
 
 ## 🔒 Note
