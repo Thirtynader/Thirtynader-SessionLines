@@ -22,7 +22,7 @@ Due to different DST schedules:
 
 -     United States: DST starts on the second Sunday of March and ends on the first Sunday of November (UTC-5 → UTC-4)
 -     Europe/Cyprus: DST starts on the last Sunday of March and ends on the last Sunday of October (UTC+2 → UTC+3)
-- 
+
 
 This creates two short periods each year where the time difference changes temporarily:
 
