@@ -77,11 +77,9 @@ These moments can provide early entry or exit signals for high-probability trade
 ![Chart Preview](./session-demo1.png)  
 *Live chart showing Thirtynader-SessionLines in action with clear session boundaries.*
 
-![Indicator Settings](./session-demo2.png)  
+![Indicator Settings](./session-demo4.png)  
 *Customizable indicator settings, including session colors, line style, and alert system.*
 
-![Indicator Settings](./session-demo4.jpg)
-*New Features
 ---
 
 ## 🔒 Note
