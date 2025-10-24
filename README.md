@@ -80,7 +80,7 @@ These moments can provide early entry or exit signals for high-probability trade
 ![Indicator Settings](./session-demo2.png)  
 *Customizable indicator settings, including session colors, line style, and alert system.*
 
-![Indicator Settings](./session-demo3.jpg)
+![Indicator Settings](./session-demo4.jpg)
 *New Features
 ---
 
