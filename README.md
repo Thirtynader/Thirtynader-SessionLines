@@ -11,15 +11,59 @@ A smart and efficient indicator that automatically draws trading session lines, 
 - 🎯 Designed to detect **key reversal areas**
 - 🔔 Built-in **alert system**, so you never miss a trading opportunity
 - 🎨 Fully customizable appearance
+## Daylight Saving Time (DST) Adjustment
+Overview
+
+This indicator includes a built-in feature to handle the temporary time differences that occur during DST transition periods between the United States and Europe/Cyprus.
+Background
+
+Due to different DST schedules:
 
 
-## V1.1.0
+-     United States: DST starts on the second Sunday of March and ends on the first Sunday of November (UTC-5 → UTC-4)
+-     Europe/Cyprus: DST starts on the last Sunday of March and ends on the last Sunday of October (UTC+2 → UTC+3)
+- 
 
-### Daylight Saving Time (DST) Adjustment
-- **shift_one_hour_forward**: A boolean option to shift all session lines forward by one hour
-  - Set to `false` for standard time (default)
-  - Set to `true` to shift lines forward by 1 hour (for DST periods)
-  - Useful when your broker's server time changes due to seasonal time adjustments
+This creates two short periods each year where the time difference changes temporarily:
+
+
+Spring gap: Between the second Sunday and last Sunday of March (~2 weeks)
+
+Fall gap: Between the first Sunday of November and last Sunday of October (~1 week)
+
+
+During these periods, the time difference between New York and Cyprus shifts from 7 hours to 6 hours.
+
+Practical Impact for Traders
+
+When the New York Stock Exchange opens at 9:30 AM EST:
+
+
+Normal period: Opens at 4:30 PM Cyprus time
+
+DST gap period: Opens at 3:30 PM Cyprus time (one hour earlier)
+
+Settings
+
+Normal trading periods: Keep shift_one_hour_back = false (default)
+
+During DST gap periods: Set shift_one_hour_back = true
+
+
+When enabled, all session lines will shift one hour backward to reflect the temporary 6-hour time difference.
+
+Example
+
+If you're trading from Cyprus and want to see accurate New York session times:
+
+
+-     Enable shift_one_hour_back = true during mid-March to late-March
+-     Disable it after the last Sunday of March
+-     Re-enable it from early November to late October
+-     Disable it after the last Sunday of October
+
+This ensures your session lines always reflect the actual market opening times in your local timezone.
+
 
 ### Interactive Tooltips
 - Hover your mouse over any vertical line to see the exact session time
