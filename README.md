@@ -44,7 +44,7 @@
 3. Drag the indicator onto any chart and adjust the **Inputs** tab if needed.
 
 ### Documentation
-Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-SessionLines_UserGuide_EN-FA.docx`](./Thirtynader-SessionLines_UserGuide_EN-FA.docx)**.
+Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-SessionLines_UserGuide.docx`]**.
 
 ---
 
@@ -80,6 +80,6 @@ Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-Se
 ۳. اندیکاتور را روی چارت بکشید و در صورت نیاز تب **Inputs** را تنظیم کنید.
 
 ### مستندات
-راهنمای کامل و به‌ترتیب تمام پارامترها (دوزبانه EN/FA) در فایل **[`Thirtynader-SessionLines_UserGuide_EN-FA.docx`](./Thirtynader-SessionLines_UserGuide_EN-FA.docx)** موجود است.
+راهنمای کامل و به‌ترتیب تمام پارامترها (دوزبانه EN/FA) در فایل **[`Thirtynader-SessionLines_UserGuide.docx** موجود است.
 
 </div>
