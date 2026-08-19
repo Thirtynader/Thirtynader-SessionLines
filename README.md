@@ -1,76 +1,85 @@
-# 📊 Thirtynader SessionLines Indicator for MetaTrader 5
+<p align="center">
+  <img src="assets/cover.webp" alt="Thirtynader-SessionLines" width="720">
+</p>
 
-A MetaTrader 5 indicator that draws vertical lines at specific session times with built-in alerts.
+<p align="center">
+  <img src="https://img.shields.io/badge/MetaTrader-4-orange?logo=metatrader&logoColor=white">
+  <img src="https://img.shields.io/badge/MetaTrader-5-1f6feb?logo=metatrader&logoColor=white">
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey">
+</p>
 
-## Features
-
-- **10 Session Time Markers**: Displays vertical lines at predefined trading session times
-- **Customizable Appearance**: Adjustable colors, line styles, and width
-- **Time-based Alerts**: Optional alarm notifications when approaching session times
-- **Multi-day View**: Shows lines for the last 5 days (configurable)
-- **Optimized for MT5**: Uses MT5 native functions and best practices
-
-## Installation
-
-1. Copy the `.mq5` file to your MetaTrader 5 `Indicators` folder
-2. Restart MT5 or compile the indicator
-3. Drag and drop onto any chart
-
-## Settings
-
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| `color1` | Primary line color | Dark Gray |
-| `color2` | Secondary line color | Dark Gray |
-| `line_style` | Line style (solid, dash, dot, etc.) | Dash-Dot |
-| `line_width` | Line thickness | 1 |
-| `days_back` | Number of past days to display | 5 |
-| `enable_alarm` | Enable/disable time alerts | true |
-| `alarm_seconds_range` | Alert trigger range in seconds | 60 |
-
-## Session Times (UTC)
-
-The indicator marks these times daily:
-- 09:00, 10:00, 14:00, 15:30, 16:30, 17:00, 18:00, 18:30, 21:00, 23:00
-
-## Notes
-
-- Times are based on your broker's server time
-- Alerts trigger once per session per day
-- Lines automatically update every 30 seconds
-- Lines are non-selectable and hidden from object list for cleaner charts
-
-## Requirements
-
-- MetaTrader 5 platform
-
-## License
-
-Free to use and modify.
+<h3 align="center">
+  <a href="#-english">🇬🇧 English</a> &nbsp;|&nbsp; <a href="#-فارسی">🇮🇷 فارسی</a>
+</h3>
 
 ---
 
-**Version**: 1.0  
-**Platform**: MetaTrader 5
+## 🇬🇧 English
+
+**Thirtynader-SessionLines** marks the 13 key broker-time moments of the Sydney, Tokyo, London and New York sessions directly on your chart as clean, color-coded bottom markers or classic full-height lines with hover tooltips and optional alerts. Available for both **MetaTrader 4** and **MetaTrader 5**.
+
+<p align="center">
+  <img src="assets/chart-example.png" alt="Live chart example" width="720">
+</p>
+
+### Features
+- 13 pre-configured session markers (Sydney → NY rollover), all times in **broker server time**
+- Two display modes: subtle bottom triangles or classic full vertical lines
+- Importance-based color coding (Weak → Excellent)
+- Hover tooltip with session name, date & time
+- Optional sound/pop-up alert as each session approaches
+- Fully editable session labels, colors, and line style from the **Inputs** tab
+
+<p align="center">
+  <img src="assets/settings-panel.png" alt="Settings panel" width="420">
+</p>
+
+<p align="center">
+  <img src="assets/session-table.png" alt="13 sessions reference table" width="640">
+</p>
+
+### Installation
+1. Copy `Thirtynader-SessionLines.ex4` (MT4) or `.ex5` (MT5) into your terminal's `MQL4/Indicators` or `MQL5/Indicators` folder.
+2. Restart MetaTrader or right-click **Indicators** in the Navigator → **Refresh**.
+3. Drag the indicator onto any chart and adjust the **Inputs** tab if needed.
+
+### Documentation
+Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-SessionLines_UserGuide_EN-FA.docx`](./Thirtynader-SessionLines_UserGuide_EN-FA.docx)**.
 
 ---
 
-## 📦 Installation
+## 🇮🇷 فارسی
 
-1. Download the file: [`Thirtynader-SessionLines.ex5`](https://github.com/Thirtynader/Thirtynader-SessionLines/releases)
-2. Open MetaTrader 5
-3. Go to `File → Open Data Folder`
-4. Navigate to: `MQL5/Indicators/`
-5. Copy the file there and restart MetaTrader
-6. Attach the indicator to any chart
+<div dir="rtl" align="right">
 
----
+اندیکاتور **Thirtynader-SessionLines** سیزده لحظه‌ی کلیدی سشن‌های سیدنی، توکیو، لندن و نیویورک را مستقیماً روی چارت شما مشخص می‌کند به‌صورت نشانگرهای مثلثی رنگی و تمیز در پایین چارت یا خطوط عمودی کلاسیک همراه با تولتیپ هنگام هاور و امکان هشدار. برای **متاتریدر ۴** و **متاتریدر ۵** هر دو موجود است.
 
-## 📸 Screenshots
+<p align="center">
+  <img src="assets/chart-example.png" alt="نمونه چارت" width="720">
+</p>
 
-## Thirtynader-SessionLines 📈
+### امکانات
+- ۱۳ نشانگر از پیش تنظیم‌شده (از سیدنی تا شروع روز نیویورک)، همه بر اساس **ساعت سرور بروکر**
+- دو حالت نمایش: مثلث‌های ظریف پایین چارت یا خطوط عمودی کامل کلاسیک
+- رنگ‌بندی بر اساس سطح اهمیت (ضعیف تا عالی)
+- تولتیپ هنگام هاور شامل نام سشن و تاریخ/ساعت
+- امکان هشدار صوتی/پاپ‌آپ هنگام نزدیک شدن به هر سشن
+- برچسب‌ها، رنگ‌ها و سبک خط، همگی از تب **Inputs** قابل ویرایش
 
-![Indicator Settings](./ScreenshotSL.jpg)  
-*Customizable indicator settings, including session colors, line style, and alert system.*
+<p align="center">
+  <img src="assets/settings-panel.png" alt="پنل تنظیمات" width="420">
+</p>
 
+<p align="center">
+  <img src="assets/session-table.png" alt="جدول مرجع ۱۳ سشن" width="640">
+</p>
 
+### نصب
+۱. فایل `Thirtynader-SessionLines.ex4` (برای MT4) یا `.ex5` (برای MT5) را در پوشه‌ی `MQL4/Indicators` یا `MQL5/Indicators` ترمینال خود کپی کنید.
+۲. متاتریدر را ری‌استارت کنید یا در Navigator روی **Indicators** راست‌کلیک و **Refresh** بزنید.
+۳. اندیکاتور را روی چارت بکشید و در صورت نیاز تب **Inputs** را تنظیم کنید.
+
+### مستندات
+راهنمای کامل و به‌ترتیب تمام پارامترها (دوزبانه EN/FA) در فایل **[`Thirtynader-SessionLines_UserGuide_EN-FA.docx`](./Thirtynader-SessionLines_UserGuide_EN-FA.docx)** موجود است.
+
+</div>
