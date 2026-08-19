@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.webp" alt="Thirtynader-SessionLines" width="720">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/cover.webp" alt="Thirtynader-SessionLines" width="720">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 **Thirtynader-SessionLines** marks the 13 key broker-time moments of the Sydney, Tokyo, London and New York sessions directly on your chart as clean, color-coded bottom markers or classic full-height lines with hover tooltips and optional alerts. Available for both **MetaTrader 4** and **MetaTrader 5**.
 
 <p align="center">
-  <img src="assets/chart-example.png" alt="Live chart example" width="720">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine.png" alt="Live chart example" width="720">
 </p>
 
 ### Features
@@ -31,11 +31,11 @@
 - Fully editable session labels, colors, and line style from the **Inputs** tab
 
 <p align="center">
-  <img src="assets/settings-panel.png" alt="Settings panel" width="420">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine-CP.png" alt="Settings panel" width="420">
 </p>
 
 <p align="center">
-  <img src="assets/session-table.png" alt="13 sessions reference table" width="640">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine-UserGuide.png" alt="13 sessions reference table" width="640">
 </p>
 
 ### Installation
@@ -55,7 +55,7 @@ Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-Se
 اندیکاتور **Thirtynader-SessionLines** سیزده لحظه‌ی کلیدی سشن‌های سیدنی، توکیو، لندن و نیویورک را مستقیماً روی چارت شما مشخص می‌کند به‌صورت نشانگرهای مثلثی رنگی و تمیز در پایین چارت یا خطوط عمودی کلاسیک همراه با تولتیپ هنگام هاور و امکان هشدار. برای **متاتریدر ۴** و **متاتریدر ۵** هر دو موجود است.
 
 <p align="center">
-  <img src="assets/chart-example.png" alt="نمونه چارت" width="720">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine.png" alt="نمونه چارت" width="720">
 </p>
 
 ### امکانات
@@ -67,11 +67,11 @@ Full parameter-by-parameter reference (bilingual EN/FA) is in **[`Thirtynader-Se
 - برچسب‌ها، رنگ‌ها و سبک خط، همگی از تب **Inputs** قابل ویرایش
 
 <p align="center">
-  <img src="assets/settings-panel.png" alt="پنل تنظیمات" width="420">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine-CP.png" alt="پنل تنظیمات" width="420">
 </p>
 
 <p align="center">
-  <img src="assets/session-table.png" alt="جدول مرجع ۱۳ سشن" width="640">
+  <img src="https://github.com/Thirtynader/Thirtynader-SessionLines/blob/main/Thirtynader-SessionLine-UserGuide.png" alt="جدول مرجع ۱۳ سشن" width="640">
 </p>
 
 ### نصب
